@@ -3,7 +3,7 @@
 namespace Codesleeve\LaravelStapler;
 
 use Codesleeve\Stapler\Interfaces\Config;
-use Illuminate\Contracts\Config\Repository;
+use Illuminate\Config\Repository;
 
 class IlluminateConfig implements Config
 {
